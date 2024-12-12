@@ -12,12 +12,7 @@ const character = string.split("");
 
 for (let index = 0; index < character.length; index++) {
   //console.log(character[index]);
-
-  if (character[index] === "m") {
-    console.log(index);
-    
-    solutionStore.push(character[index+ 1])
-  }
+  solutionStore.push(character[index]);
 }
 
 console.log(solutionStore);
