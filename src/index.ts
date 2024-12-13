@@ -12,7 +12,11 @@ const character = string.split("");
 
 for (let index = 0; index < character.length; index++) {
   //console.log(character[index]);
-  solutionStore.push(character[index]);
+   solutionStore.push(character[index]);
+
+  if (character[index]) {
+    
+  }
 }
 
 console.log(solutionStore);
