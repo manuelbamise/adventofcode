@@ -1,4 +1,4 @@
-# This is a project where i solve advent of code projects
+# This is a project where i solve advent of code problems
 
 ```
 "npm i" - To install all packages
